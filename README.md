@@ -20,7 +20,7 @@ Use on replicates with pairs (Each replicate is paired with another between the 
 
 $ python rMATS_paired.py input_read_count_file output_folder number_processor diff_cutoff
 
-The examples of input files are available in the depositry. The input format is detailed in the Example section.
+The examples of input files are available in the depository. The input format is detailed in the Example section.
 
 Example:
 --------------------------------
