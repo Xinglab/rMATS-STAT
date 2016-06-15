@@ -64,7 +64,7 @@ Simulation Code Usage:
 --------------------------------
 $ python Simu_Outlier.py total_read_count_file standard_deviation psi_min  psi_max standard_deviation_outlier > output
 
-The 1st parameter specifies the total read counts previously sampled from real data. The 2nd parameter specifies the standard deviation of psi without the sample group. The 3rd and 4th parameters specify the range of the mean splicing values. The 5th parameter specifies the standard deviation of the outlier. 
+The 1st parameter specifies the total read counts previously sampled from real data. The 2nd parameter specifies the standard deviation of psi without the sample group. The 3rd and 4th parameters specify the range of the mean splicing values. The 5th parameter specifies the standard deviation of the outlier. To simulate without outliers, please set the two standard_deviation parameters to be equal.
 
 Example:
 --------------------------------
