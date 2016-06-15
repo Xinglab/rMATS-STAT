@@ -56,6 +56,8 @@ Output: The output folder contains the rMATS_Result_P.txt file. For each alterna
 - SkipFormLen: length of skipping form, used for normalization.
 - PValue: P-values of the alternative splicing event.
 
+
+--------------------------------
 The following part covers the usage of a simulation code to generate simulation counts with an outlier in the samples. The simulaiton code requires the rpy module for Python.
 
 Usage:
@@ -64,6 +66,8 @@ $ python rMATS_unpaired.py total_read_count_file standard_deviation psi_min  psi
 
 The 1st parameter specifies the total read counts previously sampled from real data. The 2nd parameter specifies the standard deviation of psi without the sample group. The 3rd and 4th parameters specify the range of the mean splicing values. The 5th parameter specifies the standard deviation of the outlier. 
 
+
+--------------------------------
 Example of running the simulation code using the total counts sampled in count.txt; with 0.1 standard-deviation in the sample group; mean psi values between 0% to 5% and 0.4 standard-deviation for the outlier:
 --------------------------------
 
