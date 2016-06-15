@@ -57,6 +57,7 @@ Output: The output folder contains the rMATS_Result_P.txt file. For each alterna
 - PValue: P-values of the alternative splicing event.
 
 The following part covers the usage of a simulation code to generate simulation counts with an outlier in the samples. The simulaiton code requires the rpy module for Python.
+
 Usage:
 --------------------------------
 $ python rMATS_unpaired.py total_read_count_file standard_deviation psi_min  psi_max standard_deviation_outlier > output
