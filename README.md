@@ -2,7 +2,7 @@
 
 This stand-alone rMATS code estimates the P values of differnetial alternative splicing using read counts on the alternative splcing events.
 
-Requirements
+Requirements:
 ------------
 1. Install Python 2.6.x or Python 2.7.x and corresponding versions of NumPy and
 SciPy.
@@ -89,7 +89,7 @@ Before you send us the bug report though, please check the following:
    the bug; we will need your input data to reproduce the problem, and the
    smaller you can make it, the easier it will be.
 
-Publication
+Publication:
 ------------
 
 Copyright and License Information
