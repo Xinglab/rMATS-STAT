@@ -71,7 +71,7 @@ Example:
 
     $ python Simu_Outlier.py count.txt 0.1 0 0.05 0.4 > output.txt
 
-Example of running the simulation code using the total counts sampled in count.txt; with 0.1 standard-deviation in the sample group; mean psi values between 0% to 5% and 0.4 standard-deviation for the outlier. The example of the read count file (count.txt) is available in the depository.
+This example runs the simulation code with the total counts sampled in count.txt (available in depostory); with 0.1 standard-deviation in the sample group; mean psi values between 0% to 5% and 0.4 standard-deviation for the outlier.
 
 Contacts and bug reports
 ------------------------
