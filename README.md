@@ -12,11 +12,11 @@ The source code can be directly called from Python.
 
 Usage:
 --------------------------------
-Use on Replicates without Pairs:
+Use on replicates without pairs:
 
 $ python rMATS_unpaired.py input_read_count_file output_folder number_processor diff_cutoff
 
-Use on Replicates with Pairs (Each replicate is paired with another between the two sample groups):
+Use on replicates with pairs (Each replicate is paired with another between the two sample groups):
 
 $ python rMATS_paired.py input_read_count_file output_folder number_processor diff_cutoff
 
