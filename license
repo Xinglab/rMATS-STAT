@@ -1,0 +1,22 @@
+You may use this Software for any non-commercial purpose, subject to the restrictions in this license. Some purposes which can be non-commercial are teaching, academic research, and personal experimentation. 
+  
+ -You may not use or distribute this Software or any derivative works in any form for any commercial purpose. Examples of commercial purposes would be running business operations, licensing, leasing, or selling the Software, or distributing the Software for use with commercial products. 
+ +You may not use or distribute this Software or any derivative works in any form for any commercial purpose. Examples of commercial purposes would be running business operations, licensing, leasing, or selling the Software, or distributing the Software for use with commercial products. If you wish to obtain a commercial license to use this Software, please contact the authors.
+  
+  You may modify this Software and distribute the modified Software for non-commercial purposes; however, you may not grant rights to the Software or derivative works that are broader than those provided by this License. For example, you may not distribute modifications of the Software under terms that would permit commercial use, or under terms that purport to require the Software or derivative works to be sublicensed to others.
+  
+ @@ -23,13 +23,5 @@ You agree:
+  9.	Nothing in this Agreement grants by implication, estoppel, or otherwise any rights to any intellectual property owned by the Regents of the University of California, except as explicitly set forth in this license.
+  10.	You will hold the Regents of the harmless for all claims, suits, losses, liabilities, damages, costs, fees, and expenses resulting from their respective activities arising from this license.  
+  11.	You will not use any name, trade name, trademark, name of any campus, or other designation of the Regents of the University of California in advertising, publicity, or other promotional activity, except as permitted herein.
+ -12.	If you wish to obtain a commercial license to use this software, please contact the authors at
+ -
+ -Yi Xing
+ -Department of Microbiology, Immunology and Molecular Genetics
+ -University of California, Los Angeles
+ -Los Angeles, CA 90095-7278
+ -Phone: 310-825-6806
+ -Fax: 310-206-3663
+ -Email: yxing@ucla.edu
+ +12.	If you wish to obtain a commercial license to use this software, please contact the authors at yxing@ucla.edu.
+  
