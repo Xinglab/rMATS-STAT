@@ -22,14 +22,20 @@ Use on replicates with pairs (Each replicate is paired with another between the 
 
 $ python rMATS_paired.py input_read_count_file output_folder number_processor diff_cutoff
 
+Use on pooled data (In each sample group, all the replicate read counts are added together):
+
+$ python MATS_LRT.py input_read_count_file output_folder number_processor diff_cutoff
+
 The 1st-2nd parameters specify the input and output. The 3rd parameter specifies the number of processors to run the code. The 4th parameter is the cutoff for splicing difference. The examples of input files are available in the depository. 
 
 Example:
 --------------------------------
 Test rMATS statistical model on sample input:
-Run rMATS_unpaired.py as below to test the script.
+Run rMATS_unpaired.py, rMATS_paired.py and MATS_LRT.py as below to test the script.
 
     $ python rMATS_unpaired.py inc.txt ./ 1 0.1
+    $ python rMATS_paired.py inc.txt ./ 1 0.1
+    $ python MATS_LRT.py inc.txt ./ 1 0.1
 
 Input: One input file is required for the script. inc.txt: Each row of
 this input file contains an alternative splicing event. The 5 columns of this
