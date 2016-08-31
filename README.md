@@ -79,6 +79,16 @@ Example:
 
 This example runs the simulation code with the total counts sampled in count.txt (available in depostory); with 0.1 standard-deviation in the sample group; mean psi values between 0% to 5% and 0.4 standard-deviation for the outlier.
 
+--------------------------------
+--------------------------------
+The statistical code here outputs the P values without multiple comparison correction. The following part provide a Python code to calculate the false discovery rate (FDR) based on the Benjamini-Hochberg approach.
+
+FDR Code Usage:
+--------------------------------
+$ python FDR.py input > output
+
+The input file is the rMATS-STAT output from the previous step. The FDR.py code calculates the FDR and adds the FDR values to the last column of the output file.
+
 Contacts and bug reports
 ------------------------
 Shihao Shen
